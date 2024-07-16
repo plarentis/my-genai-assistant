@@ -15,12 +15,13 @@ Amplify.configure({
       ...existingConfig.API?.REST,
       AssistantConfigApi: {
         endpoint:
-          '<INSERT_API_GATEWAY_ENDPOINT>',
-        region: '<INSERT_REGION>'
+          'https://vffslkbx21.execute-api.us-east-1.amazonaws.com/',
+        region: 'us-east-1'
       }
     }
   }
 });
 
 createApp(App).mount("#app");
+
 
